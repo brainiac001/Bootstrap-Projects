@@ -1,0 +1,27 @@
+:root{
+    --primary-color: rgb(9, 180, 83);
+    --secondary-color: rgb(231, 227, 216);
+}
+
+
+.nav, .footer{
+    background-color: black;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.text-pink{
+ color: pink;
+}
+
+button{
+    background-color: var(--primary-color);
+    color: var(--secondary-color)
+}
+
+
+a{
+    color: var(--primary-color)
+}

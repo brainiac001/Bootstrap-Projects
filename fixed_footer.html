@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <title>Sticky Footer Example</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .content {
+            flex: 1;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content flex-center-align p-5">
+            <!-- Main content goes here -->
+            <div class="container">
+                <h1>Main Content</h1>
+                <p>Your main content goes here. Add more content to see the footer behavior.</p>
+               
+            </div>
+        </div>
+        <footer class="bg-dark text-light pt-4">
+            <div class="container">
+                <div class="row">
+                    <!-- Contact Information -->
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <h5>Contact Us</h5>
+                        <ul class="list-unstyled">
+                            <li><i class="bi bi-envelope"></i> Email: info@example.com</li>
+                            <li><i class="bi bi-telephone"></i> Phone: +123 456 7890</li>
+                            <li><i class="bi bi-geo-alt"></i> Address: 123 Street Name, City</li>
+                        </ul>
+                    </div>
+                    <!-- Social Media Links -->
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <h5>Follow Us</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="link-light text-decoration-none"><i class="bi bi-facebook"></i> Facebook</a></li>
+                            <li><a href="#" class="link-light text-decoration-none"><i class="bi bi-twitter"></i> Twitter</a></li>
+                            <li><a href="#" class="link-light text-decoration-none"><i class="bi bi-instagram"></i> Instagram</a></li>
+                        </ul>
+                    </div>
+                    <!-- Quick Links -->
+                    <div class="col-lg-4 col-md-12 mb-4">
+                        <h5>Quick Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="link-light text-decoration-none"><i class="bi bi-info-circle"></i> About Us</a></li>
+                            <li><a href="#" class="link-light text-decoration-none"><i class="bi bi-briefcase"></i> Services</a></li>
+                            <li><a href="#" class="link-light text-decoration-none"><i class="bi bi-envelope"></i> Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-secondary text-center py-3">
+                <small>&copy; 2024 Your Company. All rights reserved.</small>
+            </div>
+        </footer>
+    </div>
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
